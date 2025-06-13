@@ -10,7 +10,7 @@ jobs:
             pull-requests: write
             contents: write
         steps:
-            - uses: CSSUoB/pr-auto-updater@dependabot/npm_and_yarn/deps-e83484d5f4
+            - uses: CSSUoB/pr-auto-updater@implement-commenting
               env:
                 GITHUB_TOKEN: '${{ secrets.PR_AUTO_UPDATE_TOKEN }}'
                 PR_FILTER: 'labelled'
